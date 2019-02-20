@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: #F5F5F5;
+}
+
+/***** Normal Styles *****/
+h1 {
+  font-size: 24px;
+  font-family: sans-serif;
+  border-bottom: 2px solid #ff3030;
+  margin-bottom: 15px;
+  padding-bottom: 4px;
+}
+h2 {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-bottom: 8px;
+}
+p {
+  font-size: 17px;
+  line-height: 23px;
+}
+a {
+  color: #ff3030;
+  font-family: inherit;
+}
+a:hover {
+  color: #df2020;
+}
+article {
+  width: 850px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #d0d0d0;
+  padding: 50px 75px;
+  margin: 35px auto;
+  z-index: -2;
+}
+time {
+  font-style: italic;
+  margin: 5px 0;
+  display: inline-block;
+}
+hr {
+  border: 1px solid #ff3030;
+  margin: 8px 0;
+}
+ul {
+  margin: 7px 0;
+  padding-left: 20px;
+}
+ol {
+  margin: 7px 0;
+  padding-left: 20px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+a.read-more {
+  padding: 10px 15px;
+  background-color: #ff3030;
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+a.read-more:hover {
+  background-color: #df2020;
+}
+
+
+/***** Code Highlighting *****/
+pre {
+  background-color: rgb(40, 44, 52);
+  padding: 15px;
+  border-radius: 7px;
+  border: 2px solid rgb(24, 26, 31);
+  margin: 15px 0;
+}
+span.c1 {
+  color: rgb(90, 97, 109);
+  font-style: italic;
+}
+span.c2 {
+  color: rgb(90, 97, 109);
+  font-style: italic;
+}
+span.s {
+  color: rgb(153, 194, 124);
+}
+span.kn {
+  color: rgb(197, 123, 219);
+}
+span.nn {
+  color: rgb(171, 178, 190);
+}
+span.k {
+  color: rgb(197, 123, 219);
+}
+span.p {
+  color: rgb(171, 178, 190);
+}
+span.se {
+  color: rgb(87, 175, 185);
+}
+span.n {
+  color: rgb(171, 178, 190);
+}
+span.o {
+  color: rgb(171, 178, 190);
+}
+span.mi {
+  color: rgb(208, 154, 106);
+}
+span.nc {
+  color: rgb(216, 181, 122);
+}
+span.nf {
+  color: rgb(100, 176, 237);
+}
+span.bp {
+  color: rgb(222, 109, 119);
+}
+span.nb {
+  color: rgb(171, 178, 190);
+}
+span.s1 {
+  color: rgb(153, 194, 124);
+}
+span.s2 {
+  color: rgb(153, 194, 124);
+}
+span.si {
+  color: rgb(222, 109, 119);
+}
+
+/***** Navigation *****/
+nav {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0px 2px 5px #d0d0d0;
+  margin-bottom: 25px;
+}
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+nav ul li {
+  font-family: sans-serif;
+}
+nav h1 {
+  border: none;
+}
+nav h1 a {
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+/***** Classes *****/
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+
+@media screen and (max-width: 1024px) {
+  article {
+    border-radius: 0;
+    box-shadow: none;
+    width: calc(100% - 100px);
+    padding: 40px 50px;
+    margin: 0;
+    border-bottom: 3px solid #d0d0d0;
+  }
+  article:last-of-type {
+    border-bottom: none;
+  }
+  nav {
+    margin-bottom: 0;
+  }
+  footer {
+    margin-top: 0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+  }
+  nav {
+    background-color: #252525;
+    box-shadow: 0px 2px 5px #000000;
+  }
+  article {
+    background-color: #252525;
+    box-shadow: 0px 2px 5px #0d0d0d;
+    color: white;
+  }
+}
