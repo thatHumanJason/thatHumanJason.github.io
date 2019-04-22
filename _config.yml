@@ -9,3 +9,5 @@ github_username:  thatHumanJason
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+theme: jekyll-theme-slate
