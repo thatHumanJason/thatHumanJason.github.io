@@ -9,12 +9,10 @@
   <body>
     <nav>
       <ul>
-        <h1><li><a href="/" target="">ThatHumanJason's Website</a></li></h1>
+        <li><a href="/" target="">Home</a></li>
         <li><a href="/about" target="">About</a></li>
         <li><a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a></li>
         <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a></li>
-        <li><a href="/feed.xml">RSS</a></li>
-        <li><a href="https://icons8.com/" target="_blank">Icons by Icons8</a></li>
       </ul>
     </nav>
     <article>
@@ -22,5 +20,13 @@
       <time>{{ page.date | date: "%A, %B %-d, %Y" }}</time>
       {{ content }}
     </article>
+    <footer>
+      <ul>
+        <li><a href="/policy.html">"Privacy Policy"</a></li>
+        <li><a href="/feed.xml">RSS</a></li>
+        <li><a href="https://icons8.com/" target="_blank">Icons by Icons8</a></li>
+      </ul>
+    </footer>
+    <script src="/js/script.js" charset="utf-8"></script>
   </body>
 </html>
