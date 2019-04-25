@@ -39,7 +39,7 @@ a:hover {
 article {
   width: 850px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 4px;
   box-shadow: 3px 3px 5px #d0d0d0;
   padding: 50px 75px;
   margin: 35px auto;
@@ -268,15 +268,15 @@ footer h1 a {
   }
   nav {
     background-color: #252525;
-    box-shadow: 0px 2px 5px #000000;
+    box-shadow: 0px 2px 5px #0a0a0a;
   }
   footer {
     background-color: #252525;
-    box-shadow: 0px -2px 5px #000000;
+    box-shadow: 0px -2px 5px #0a0a0a;
   }
   article {
     background-color: #252525;
-    box-shadow: 0px 2px 5px #0d0d0d;
+    box-shadow: 0px 2px 5px #0a0a0a;
     color: white;
   }
   .dropbtn {

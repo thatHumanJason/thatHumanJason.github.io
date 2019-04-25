@@ -1,0 +1,25 @@
+@media print {
+  /*@page {
+    margin: 1in;
+  }*/
+
+  body {
+    line-height: 1.3;
+    background: #fff !important;
+    color: #000;
+    width: 100%;
+    padding: 0.5in;
+  }
+
+  article {
+    width: calc(100% - 1in);
+    float: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav, header, footer {
+    display: none;
+  }
+}
