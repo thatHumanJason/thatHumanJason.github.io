@@ -324,8 +324,8 @@ footer h1 a {
   article {
     border-radius: 0;
     box-shadow: none;
-    width: calc(100% - 100px);
-    padding: 40px 50px;
+    width: calc(100% - 60px);
+    padding: 20px 30px;
     margin: 0;
     margin-bottom: 3px;
   }
