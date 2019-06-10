@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "WWDC 2019: My (late) Reaction"
-date:   June 10, 2019
+date:   June 09, 2019
 categories: blog
 excerpt_separator: <!--more-->
 ---
